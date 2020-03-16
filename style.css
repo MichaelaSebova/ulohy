@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text:400,700&display=swap&subset=latin-ext');
+
+
+body {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    font-family: 'Bellota Text', cursive;
+}
+
+nav {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#mensieCislo, #vacsieCislo, #stranaA, #stranaB, #zadajCislo {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #343a40;
+    color: #343a40;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 0.8rem;
+    outline: none;
+    font-family: 'Bellota Text', cursive;
+}
+
+#vygeneruj, #zorad, #vykresli  {
+    background-color: #3c3c3c;
+    border: none;
+    border-radius: 25px;
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    outline: none;
+}
+
+#rychlyVypocet, #pomalyVypocet {
+    background-color: #3c3c3c;
+    border: none;
+    border-radius: 25px;
+    height: 2rem;
+    width: 10rem;
+    color: white;
+    outline: none;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zlyParameter {
+    color: red;
+}
+
+.margin-top {
+    margin-top: 5rem;
+}
+
+.margin-top-top {
+    margin-top: 8rem;
+}
+
+#platno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3c3c3c;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+
+a {
+    color: black;
+    outline: none;
+    text-decoration: none;
+}

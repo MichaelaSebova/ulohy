@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrazce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.pngfind.com/pngs/m/3-39468_png-happy-face-black-and-white-transparent-happy.png">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">DOMOV</a>
+    </nav>
+    
+    <div class="container margin-top">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h4 class="mb-3">Vyber si obrazec, ktorý chceš "vykresliť":</h4>
+                <form action="">
+                <div>
+                    <input type="radio" name="obrazec" id="stv" value="stvorec">
+                    <label for="stv">Štvorec</label>
+                </div>
+                <div>
+                    <input type="radio" name="obrazec" id="obd" value="obdlznik">
+                    <label for="obd">Obdĺžnik</label>
+                </div>
+                <div>
+                    <input type="radio" name="obrazec" id="kos" value="kosostvorec">
+                    <label for="kos">Kosoštvorec</label>
+                </div>
+                <div>
+                    <input type="radio" name="obrazec" id="pra" value="pravouhly trojuholnik">
+                    <label for="pra">Pravouhlý trojuholník</label>
+                </div>    
+                <h4 class="m-3">Zvoľ veľkosť strany:</h4>
+                <input class="m-2" type="number" name="" value="" id="stranaA" placeholder="veľkosť strany A">
+                <input class="m-2" type="number" name="" value="" id="stranaB" placeholder="veľkosť strany B">
+                <p class="zlyParameter" id="zlaStrana"></p>
+                <p class="zlyParameter" id="maleCislo"></p>
+                <input class="m-2" type="button" id="vykresli" value="VYKRESLI">
+                </form>
+            </div>
+            <div id="platno" class="col-lg-6 col-md-12"></div>
+        </div>
+    </div>
+    
+    <script src="obrazce.js"></script>
+</body>
+</html>

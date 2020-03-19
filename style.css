@@ -26,7 +26,7 @@ nav {
     font-family: 'Bellota Text', cursive;
 }
 
-#vygeneruj, #zorad, #vykresli  {
+#vygeneruj, #zorad, #vykresli   {
     background-color: #3c3c3c;
     border: none;
     border-radius: 25px;
@@ -36,7 +36,7 @@ nav {
     outline: none;
 }
 
-#rychlyVypocet, #pomalyVypocet {
+#rychlyVypocet, #pomalyVypocet, #postupnost{
     background-color: #3c3c3c;
     border: none;
     border-radius: 25px;
@@ -78,4 +78,8 @@ a {
     color: black;
     outline: none;
     text-decoration: none;
+}
+
+.card {
+    height: 300px;
 }

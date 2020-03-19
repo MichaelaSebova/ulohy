@@ -22,6 +22,9 @@ function fibonacci(n) {
     } else 
     if (n == 1) {
         document.querySelector("#vysledok").textContent = "Tvoja postupnosť je: " + fibPole + ".";
+    } else 
+    if (n == 2) {
+        document.querySelector("#vysledok").textContent = "Tvoja postupnosť je: 0, 1, 1.";
     } else {
         for(let i = 2; i < n; i++) {
             fibPole.push(fibPole[i-1]+fibPole[i-2]);
